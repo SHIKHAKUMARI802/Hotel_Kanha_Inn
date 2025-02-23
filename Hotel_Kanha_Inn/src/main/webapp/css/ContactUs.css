@@ -1,0 +1,115 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin-right: 0;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.main {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    height: 185.5vh;
+    border-radius: 1rem;
+    position: relative;
+    width: 97.5vw;
+    box-shadow: 0px 5px 12px 5px rgb(27, 25, 25);
+    h2,h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    h3{
+        font-size: 1.5rem;
+        background-color: rgba(21, 0, 255, 0.068);
+        border-radius: 10px;
+    }
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: 1rem;
+    right: 5rem;
+    width: 90%;
+    a {
+        font-size: 20px;
+        position: relative;
+        left: 60rem;
+        color: rgb(0, 0, 0);
+        padding: .7rem 2.2rem;
+        border-radius: 10px;
+        font-weight: 700;
+        text-shadow:5px 5px 5px  rgba(227, 58, 157, 0.226);
+        &:hover {
+            transition: 0.5s;
+            color: rgb(240, 98, 110);
+        }
+    }
+
+}
+
+.add{
+    position: relative;
+    left: 2rem;
+    p{
+        font-size: 20px;
+    }
+}
+
+.form{
+    position: relative;
+    left: 2rem;
+    width: 10rem;
+
+    input{
+        position: absolute;
+        top: -5px;
+        left: 3.3rem;
+        height: 1.6rem;
+        border-radius: 5px;
+        width: 17rem;
+    }
+    label{
+        position: absolute;
+    }
+    #email{
+        top: 2.2rem;
+    }
+    #subject{
+        top: 4.4rem;
+    }
+    button{
+        border-radius: 10px;
+        border: none;
+        padding: 7px;
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        background-color: rgba(144, 211, 85, 0.514);
+        font-size: 15px;
+        font-weight: 600;
+        &:hover{
+            transition: 1s;
+            background-color: rgba(3, 255, 255, 0.3);
+        }
+        &:active{
+            opacity: 0;
+        }
+
+    }
+    #message{
+        width: 13rem;
+        border-radius: 5px;
+    }
+}
+
+.frame{
+    margin-right: 0px;
+    iframe{
+        width: 95%;
+        margin: 1px 50px;
+        border-radius: 10px;
+        border:1px solid rgb(1, 247, 255);
+    }
+}
